@@ -156,9 +156,10 @@ const app = {
     do{
       newIndex = Math.floor(Math.random() * this.songs.length);
       console.log(newIndex);
-    }while(newIndex == this.currentIndex)
-    this.currentIndex =newIndex;
-    this.nextSong();
+    }while(newIndex == this.currentIndex || newIndex == 0)
+  
+    this.currentIndex =  newIndex;
+    this.loadCurrentSong();
   },
   scrollToActiveSong: function() {
     setTimeout(() => {
