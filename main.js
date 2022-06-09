@@ -33,13 +33,9 @@ const app = {
   isRandom: false,
   isRepeat: false,
   config: JSON.parse(localStorage.getItem(PLAYERS_STORAGE_KEY)) || {},
-  setConfig: function (key, value) {
-    this.config[key] = value;
-    localStorage.setItem(PLAYERS_STORAGE_KEY, JSON.stringify(this.config));
-  },
   songs: [
     {
-      name: "Chiều Thu Họa Bóng",
+      name: "Chiều Thu Họa Bóng Nàng Cover",
       singer: "Double Chau",
       path: "https://tainhac123.com/listen/chieu-thu-hoa-bong-nang-cover-double-chou.DexyNksl2SVY.html",
       image: "https://doisongvaphattrien.vn/uploads/images/huynh-kpat-media/2021/PHU00025_mr1604253148932.jpg"
@@ -101,6 +97,10 @@ const app = {
         "https://bloganchoi.com/wp-content/uploads/2021/10/em-nho.jpg"
     }
   ],
+  setConfig: function (key, value) {
+    this.config[key] = value;
+    localStorage.setItem(PLAYERS_STORAGE_KEY, JSON.stringify(this.config));
+  },
   render: function() {
     var htmls = this.songs.map((song, index) =>{
       return `
@@ -158,6 +158,7 @@ const app = {
       console.log(newIndex);
     }while(newIndex == this.currentIndex)
     this.currentIndex =newIndex;
+    this.nextSong();
   },
   scrollToActiveSong: function() {
     setTimeout(() => {
@@ -223,21 +224,29 @@ const app = {
     }
     //Handle when click Next
     btnNext.onclick = function() {
-      _this.nextSong();
+      if(_this.isRandom) {
+        _this.playRandomSong();
+      }else{
+        _this.nextSong();
+      }
       audio.play();
       _this.scrollToActiveSong();
     }
     //Handle when click Prev
     btnPrev.onclick = function() {
-      _this.prevSong();
+      if(_this.isRandom) {
+        _this.playRandomSong();
+      }else{
+        _this.prevSong();
+      }
       audio.play();
+      _this.scrollToActiveSong();
     }
     //Handle when click Random
     btnRandom.onclick = function() {
       _this.isRandom = !_this.isRandom;
       _this.setConfig('isRandom', _this.isRandom);
       btnRandom.classList.toggle('active', _this.isRandom);
-      _this.playRandomSong();
     }
     //Handle next song when audio ended
     audio.onended = function() {
