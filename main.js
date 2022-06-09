@@ -39,7 +39,7 @@ const app = {
   },
   songs: [
     {
-      name: "Chiều Thu Họa Bóng Nàng Cover",
+      name: "Chiều Thu Họa Bóng",
       singer: "Double Chau",
       path: "https://tainhac123.com/listen/chieu-thu-hoa-bong-nang-cover-double-chou.DexyNksl2SVY.html",
       image: "https://doisongvaphattrien.vn/uploads/images/huynh-kpat-media/2021/PHU00025_mr1604253148932.jpg"
