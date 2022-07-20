@@ -184,7 +184,7 @@ const app = {
     }
     // When Click button Space
       document.onkeydown = function(e) {
-        if(e.code === 'Space'){
+        if(e.code === 'Space' || e.code === 'Escape'){
           if(!_this.isPlaying){
             audio.play() // Audio Play
         }
