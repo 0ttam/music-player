@@ -80,7 +80,71 @@ const app = {
       path:
         "https://tainhac24h.com/get/song/api/87551",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUtFfEf4LKzQ1LlCh12IdZNWwYok6amEE4w&usqp=CAU"
-    }
+    },
+    
+        {
+          name: "Chiều Thu Họa Bóng Nàng Cover",
+          singer: "Double Chau",
+          path: "https://tainhac123.com/listen/chieu-thu-hoa-bong-nang-cover-double-chou.DexyNksl2SVY.html",
+          image: "https://doisongvaphattrien.vn/uploads/images/huynh-kpat-media/2021/PHU00025_mr1604253148932.jpg"
+        },
+        {
+          name: "Sóng Gió (Lofi Version)",
+          singer: "K-ICM x Jack",
+          path: "https://tainhac123.com/listen/song-gio-lofi-version-k-icm-ft-jack-j97.uf30OHzwXGZZ.html",
+          image: "https://afamilycdn.com/150157425591193600/2020/9/22/jack21-23-160078305074286121921.jpg"
+        },
+        {
+          name: "Cô Đơn Dành Cho Ai",
+          singer: "Nal",
+          path: "https://play.imusicvn.com/stream/QeJ3LUOzzCOb",
+          image:
+            "https://yt3.ggpht.com/74TMOnYe65UhhcTOIweLisu999taOoEZUUgrtk4MUhRl3sHGMggJFjOuYvjU1wl2Phg2SJRK2Q=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+          name: "Hạ Còn Vương Nắng (Guitar Cover)",
+          singer: "Nguyễn Thị Thảo",
+          path: "https://tainhac123.com/listen/ha-con-vuong-nang-guitar-cover-nguyen-thi-thao.t9vjeyHVzmtK.html",
+          image:
+            "https://yt3.ggpht.com/ytc/AKedOLSA1fHlX2-qGkzvq_isl3h03d2qgGWbJvcV7ecT=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+          name: "Mưa",
+          singer: "M4U x Thùy Chi",
+          path:
+            "https://tainhac123.com/listen/mua-m4u-ft-thuy-chi.pSwlTwUHs5hT.html",
+          image: "https://i.ytimg.com/vi/-yhqOX3bLvQ/maxresdefault.jpg"
+        },
+        {
+          name: "Phố Xa",
+          singer: "Miu Lê",
+          path:
+            "https://tainhac123.com/listen/pho-xa-miu-le.V2qkrRxwbGhM.html",
+          image: "https://afamilycdn.com/150157425591193600/2020/6/26/batch000043-4-1593134780129625552806.jpg"
+        },
+        {
+          name: "Giấc Mơ Trưa",
+          singer: "Thùy Chi",
+          path: "https://tainhac123.com/listen/giac-mo-trua-thuy-chi.GGolRImAI-.html",
+          image:
+            "https://2sao.vietnamnetjsc.vn/images/2021/05/08/20/58/thuy-chi-01.jpg"
+        },
+        {
+          name: "Đừng Như Thói Quen (Korean Version)",
+          singer: "Sara Lưu",
+          path:
+            "https://play.imusicvn.com/stream/aE2CjhetHHgr",
+          image:
+            "https://sohanews.sohacdn.com/thumb_w/660/2018/12/4/10-1543899236163625071733.jpg"
+        },
+        {
+          name: "Yêu Là Như Thế (Huyện Thái Gia 9 Tuổi OST)",
+          singer: "Tuấn Huy",
+          path: "https://tainhac123.com/listen/yeu-la-nhu-the-huyen-thai-gia-9-tuoi-ost-tuan-huy.H8RWVbLOlR.html",
+          image:
+            "https://bloganchoi.com/wp-content/uploads/2021/10/em-nho.jpg"
+        }
+      
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
