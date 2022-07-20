@@ -182,6 +182,17 @@ const app = {
       }
       
     }
+    // When Click button Space
+      document.onkeydown = function(e) {
+        if(e.code === 'Space'){
+          if(!_this.isPlaying){
+            audio.play() // Audio Play
+        }
+        else{
+            audio.pause() //Audio Pause
+        }
+        }
+      }
     //When song is playing
     audio.onplay = function() {
         _this.isPlaying = true;
