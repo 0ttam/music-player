@@ -149,7 +149,7 @@ const app = {
           singer: "Quang Lê",
           path: "https://ytmedia.tkaraoke.com/audio?refId=100842",
           image:
-            "https://www.google.com/imgres?imgurl=https%3A%2F%2Fzmp3-photo-fbcrawler.zmdcdn.me%2Favatars%2F9%2Ff%2F3%2Fc%2F9f3cb9a7e75438f0cb6c8064f54a0668.jpg&imgrefurl=https%3A%2F%2Fmp3.zing.vn%2Fnghe-si%2FQuang-Le&tbnid=SoSBVox2nhPYtM&vet=12ahUKEwjPtMuuuqb8AhX1JKYKHfBhB-UQMygIegUIARDcAQ..i&docid=GMwagv2aXiKg9M&w=842&h=842&q=quang%20le&ved=2ahUKEwjPtMuuuqb8AhX1JKYKHfBhB-UQMygIegUIARDcAQ"
+            "2wCEAAoHCBYWFRgWFRUYGBgaGhoYHBgYHBgYGBoYGBgaGhgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQhJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0ND80MTQ0P"
         }
       
   ],
